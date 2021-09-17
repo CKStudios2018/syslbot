@@ -4,3 +4,10 @@ body{
     background-size: cover;
     background-position: center;
 }
+
+footer{
+  text-align: center;
+  padding: 3px;
+  background-color: white;
+  color: black;
+}
