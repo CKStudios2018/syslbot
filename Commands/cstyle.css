@@ -5,22 +5,7 @@ body{
     background-position: center;
 }
 
-.page{
-    width: 1190px;
-    padding: 10% 0 0;
-    margin: auto;
-}
-
-.center{
-    position: relative;
-    z-index: 1;
-    background: #23272A;
-    max-width: 779px;
-    margin: 0 auto 100px;
-    padding: 45px;
-}
-
-.center button{
+.button{
     font-family: "Roboto", sans-serif;
     text-transform: uppercase;
     outline: 0;
@@ -31,8 +16,4 @@ body{
     color: #ffffff;
     font-size: 14px;
     cursor: pointer;
-}
-
-.center button:hover,.center button:active{
-    background: #99AAB5;
 }
