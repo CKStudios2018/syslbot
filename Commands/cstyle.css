@@ -5,7 +5,7 @@ body{
     background-position: center;
 }
 
-.button{
+#returnButton{
     font-family: "Roboto", sans-serif;
     text-transform: uppercase;
     outline: 0;
