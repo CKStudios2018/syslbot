@@ -6,7 +6,7 @@ body{
 }
 
 #returnButton{
-    font-family: "Roboto", sans-serif;
+    font-family: "Poppins", semibold;
     text-transform: uppercase;
     outline: 0;
     background: #7289DA;
@@ -19,7 +19,7 @@ body{
 }
 
 footer{
-    background: #0000FF;
+    background: #000000;
     display: block;
     text-align: center;
     padding: 3px;
