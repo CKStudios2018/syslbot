@@ -11,3 +11,43 @@ footer{
     text-align: center;
     padding: 3px;
 }
+
+#commandButton{
+    font-family: "Poppins", semibold;
+    text-transform: uppercase;
+    outline: 0;
+    background: #6FBF8B;
+    width: 100%;
+    border: 0;
+    padding: 15px;
+    color: #ffffff;
+    font-size: 14px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+#setupButton{
+    font-family: "Poppins", semibold;
+    text-transform: uppercase;
+    outline: 0;
+    background: #6FBF8B;
+    width: 100%;
+    border: 0;
+    padding: 15px;
+    color: #ffffff;
+    font-size: 14px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+#guideButton{
+    font-family: "Poppins", semibold;
+    text-transform: uppercase;
+    outline: 0;
+    background: #6FBF8B;
+    width: 100%;
+    border: 0;
+    padding: 15px;
+    color: #ffffff;
+    font-size: 14px;
+    cursor: pointer;
+    border-radius: 10px;
+}
