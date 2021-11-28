@@ -1,5 +1,4 @@
 body{
-    background: #36393e;
     height: 100vh;
     background-size: cover;
     background-position: center;
@@ -38,7 +37,7 @@ footer{
     cursor: pointer;
     border-radius: 10px;
 }
-#guideButton{
+#themeButton{
     font-family: "Poppins", semibold;
     text-transform: uppercase;
     outline: 0;

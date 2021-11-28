@@ -1,5 +1,4 @@
 body{
-    background: #36393e;
     height: 100vh;
     background-size: cover;
     background-position: center;
@@ -16,6 +15,19 @@ body{
     color: #ffffff;
     font-size: 14px;
     cursor: pointer;
+}
+#themeButton{
+    font-family: "Poppins", semibold;
+    text-transform: uppercase;
+    outline: 0;
+    background: #7289DA;
+    width: 100%;
+    border: 0;
+    padding: 15px;
+    color: #ffffff;
+    font-size: 14px;
+    cursor: pointer;
+    border-radius: 10px;
 }
 
 footer{

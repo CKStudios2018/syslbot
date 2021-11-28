@@ -4,11 +4,33 @@
     <title>SYSbot - Commands</title>
     <meta name="description" content="Take a peek at SYSbot's commands.">
     <link rel="stylesheet" href="cstyle.css">
+
+    <style>
+        body{
+        padding:0% 3% 10% 3%;
+        }
+        h1{
+        color: #32a852;
+        margin-top:30px;
+        }
+     
+        button{
+            cursor: pointer;
+            border: 1px solid #555;
+            text-align: center;
+            padding: 5px;
+            margin-left: 8px;
+        }
+        .dark{
+            background-color: #222;
+            color: #e6e6e6;
+        }
+    </style>
 </head>
 <body>
-    <h2 style="color:whitesmoke;">This section is dedicated to a lovely list of commands</h2>
-    <h3 style="color:white;">Prefix: ! (not change-able)</h3>
-    <ul style="color:white;">
+    <h2>This section is dedicated to a lovely list of commands</h2>
+    <h3>Prefix: ! (not change-able)</h3>
+    <ul>
        <h3 style="color:lime;">PUBLIC COMMANDS</h3>
        <li>help - shows this list</li>
        <li>info - shows bot info</li>
@@ -31,12 +53,20 @@
        <li>done - only the Dev Team Curators can use this one</li>
     </ul>
     <br>
+    <button id="themeButton" onclick="myFunction()">Switch light/dark mode</button>
+    <br>
     <button id="returnButton" onclick="location.href='https://ckstudios2018.github.io/syslbot';">Return To Start</button>
     <br>
 <footer>
   <p style="color: white;">This site is hosted on<br>
   <a href="https://github.com/CKStudios2018/syslbot/">github.com</a></p>
 </footer>
+<script>
+    function myFunction() {
+    var element = document.body;
+    element.classList.toggle("dark");
+    }
+</script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/anchor-js/4.1.0/anchor.min.js" integrity="sha256-lZaRhKri35AyJSypXXs4o6OPFTbTmUoltBbDCbdzegg=" crossorigin="anonymous"></script>
     <script>anchors.add();</script>
 </body>

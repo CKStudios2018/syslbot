@@ -5,13 +5,37 @@
     <title>Logged Version History - SYSbot</title>
     <meta name="description" content="The recorded Version History of SYSbot, The First Ever Discord Bot Coded in SYSlang">
     <link rel="stylesheet" href="lstyle.css">
+
+    <style>
+      body{
+      padding:0% 3% 10% 3%;
+      }
+      h1{
+      color: #32a852;
+      margin-top:30px;
+      }
+   
+      button{
+          cursor: pointer;
+          border: 1px solid #555;
+          text-align: center;
+          padding: 5px;
+          margin-left: 8px;
+      }
+      .dark{
+          background-color: #222;
+          color: #e6e6e6;
+      }
+  </style>
 </head>
 <body>
-    <h1 style="color:white;">So, someone wanted to see the version history and the version release dates...</h1>
-    <h3 style="color: whitesmoke;">Shouldn't this be called Version Logs, or something else?</h3>
-    <ul style="color:white; font-size:20px;">
-      <li>60.04 (Embed Images Update) (incorrectly named, 61); 18/11/21</li>
-      <li>60.01 (incorrectly named, 61); 17/11/21</li>
+    <h1>So, someone wanted to see the version history and the version release dates...</h1>
+    <h3>Shouldn't this be called Version Logs, or something else?</h3>
+    <p>Date organised: DD/MM/YY</p>
+    <ul style="font-size:20px;">
+      <li>61.09-01rc; 28/11/21</li>
+      <li>61.04 (Embed Images Update); 18/11/21</li>
+      <li>61.01; 17/11/21</li>
       <li>60.21-39gi 'hoister' (BETA); NA/10/21</li>
       <li>60.01-38eh 'evilheid' (BETA); 17/10/21</li>
       <li>60.01-37cg (BETA); 28/09/21</li>
@@ -21,8 +45,10 @@
       <li>59.06.4; 15/09/21</li>
       <li>54.89.7; NA/NA/21</li>
       <li>53; 12/05/21</li>
-      <p style="color:aliceblue;">Please note that versions prior to 53.x are not listed to shorten the length of this list. (plus they were useless)</p>
+      <p>Please note that versions prior to 53.x are not listed to shorten the length of this list. (plus they were useless)</p>
     </ul>
+    <br>
+    <button id="themeButton" onclick="myFunction()">Switch light/dark mode</button>
     <br>
     <button id="returnButton" onclick="location.href='https://ckstudios2018.github.io/syslbot';">Back to the Landing Site</button>
 <footer>
@@ -30,6 +56,12 @@
   <a href="https://github.com/CKStudios2018/syslbot/">github.com</a>
   lmao</p>
 </footer>
+<script>
+  function myFunction() {
+  var element = document.body;
+  element.classList.toggle("dark");
+  }
+</script>
 </body>
 <!-- GG, you scrolled to the bottom (or looked at the footer code) -->
 </html>

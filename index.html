@@ -4,21 +4,43 @@
     <title>SYSbot - The First Ever Discord Bot Coded In SYSlang</title>
     <meta name="description" content="SYSbot's Landing Page. Welcome, to the localhost website!">
     <link rel="stylesheet" href="lstyle.css">
+
+    <style>
+        body{
+        padding:0% 3% 10% 3%;
+        }
+        h1{
+        color: #32a852;
+        margin-top:30px;
+        }
+     
+        button{
+            cursor: pointer;
+            border: 1px solid #555;
+            text-align: center;
+            padding: 5px;
+            margin-left: 8px;
+        }
+        .dark{
+            background-color: #222;
+            color: #e6e6e6;
+        }
+    </style>
 </head>
 <body>
-    <h1 style="color:white;">This is the landing page for SYSbot, the First Ever Discord Bot coded in SYSlang!</h1>
-    <h2 style="color: whitesmoke;">This site contains Docs & The online status of the bot.</h2>
+    <h1>This is the landing page for SYSbot, the First Ever Discord Bot coded in SYSlang!</h1>
+    <h2>This site contains Docs & The online status of the bot.</h2>
     <br>
-    <h3 style="color:whitesmoke;">So, what is SYSbot?</h3>
-    <p style="color:white;">Good Question. <br> SYSbot is Yet Another Multipurpose Discord Bot, but unique compared to others, because it is coded in SYSlang. <br>
+    <h3>So, what is SYSbot?</h3>
+    <p>Good Question. <br> SYSbot is Yet Another Multipurpose Discord Bot, but unique compared to others, because it is coded in SYSlang. <br>
         And not only does this make SYSbot unique, but also the fact that it is the first ever bot coded in said language, that it has separate Open Source versions to (the official) private version, and it also has server-unique versions (thx V1RU5 for removing the 9 shard limit).</p>
     <br>
-    <p style="color:white;">Another thing we (The Developers and Maintainers) love about SYSbot is it's main idea/purpose. <br>
+    <p>Another thing we (The Developers and Maintainers) love about SYSbot is it's main idea/purpose. <br>
         You see, SYSbot was a challenge, an experiment if you like, to see how hard it is to make an interactive 3rd party API for a service such as Discord. <br>
             The result? well... The result was an American Hacker (V1RU5), Canadian Programmer (Chawi Mi), British Programmer (TallerThanShort), a certain Alkazar, and an entire online community joining together, making an incredible relationship, and crashing the internet.</p>
     <br>
-    <h3 style="color:whitesmoke;">So, why this website?</h3>
-    <p style="color:white;">This entire website was made in honor of Chawi Mi. <br>
+    <h3>So, why this website?</h3>
+    <p>This entire website was made in honor of Chawi Mi. <br>
         He had planned on releasing this kind of a website for the bot before he passed away unexpectedly. <br>
             Chawi was the main creator/curator of the bot in his time, and had very clear ideas of where he wanted the bot to go. <br>
                 One of those ideas, was to add a database system to the bot, but that requires us making an entire new class and api, so... we'll see </p>
@@ -26,16 +48,24 @@
     <h3 style="color: orange;">SYSbot is Undergoing Maintenence! May go down for an unspecified amount of time.</h3>
 <!-- whoever wrote this was dumb, but ok...
     note to self: links have caps... -->
+    <button id="themeButton" onclick="myFunction()">Switch light/dark mode</button>
+    <br>
     <button id="commandButton" onclick="location.href='https://ckstudios2018.github.io/syslbot/Commands';">Commands Guide</button>
     <br>
     <button id="setupButton" onclick="location.href='https://ckstudios2018.github.io/syslbot/Setup';">Setup Guide</button>
     <br>
     <footer>
-  <p style="color:white;">This site is hosted on<br>
-  <a href="https://github.com/CKStudios2018/syslbot/">github.com</a></p>
-</footer>
+        <p style="color:white;">This site is hosted on<br>
+        <a href="https://github.com/CKStudios2018/syslbot/">github.com</a></p>
+    </footer>
 <!-- Chawi would have done this in half the commits we did -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/anchor-js/4.1.0/anchor.min.js" integrity="sha256-lZaRhKri35AyJSypXXs4o6OPFTbTmUoltBbDCbdzegg=" crossorigin="anonymous"></script>
+    <script>
+        function myFunction() {
+        var element = document.body;
+        element.classList.toggle("dark");
+        }
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/anchor-js/4.1.0/anchor.min.js" integrity="sha256-lZaRhKri35AyJSypXXs4o6OPFTbTmUoltBbDCbdzegg=" crossorigin="anonymous"></script>
     <script>anchors.add();</script>
 </body>
 </html>
