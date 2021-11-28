@@ -15,39 +15,28 @@ Hey there code Scrapers!
         body{
         padding:0% 3% 10% 3%;
         }
-        h1{
-        color: #32a852;
-        margin-top:30px;
-        }
-     
-        button{
-            cursor: pointer;
-            border: 1px solid #555;
-            text-align: center;
-            padding: 5px;
-            margin-left: 8px;
-        }
         .dark{
-            background-color: #222;
+            background-color: #36393e;
             color: #e6e6e6;
         }
     </style>
 </head>
 <body>
     <h1>General Setup Guide for SYSbot</h1>
-    <p>This (very) simple guide will walk you through SYSbot setup.<br>
+    <p style="font-size: 16px;">This (very) simple guide will walk you through SYSbot setup.<br>
 SYSbot has only one (1) way of knowing Admins from other users; Roles.<br>
 SYSbot will only allow users with a role named "Admin" (caution capital A) to execute administrative commands.<br>
 So, how do you set up SYSbot?</p>
-    <ol>
+    <ol style="font-size: 16px;">
       <li>Create a Role named "Admin" (if you dont already have one)</li>
       <li>Give it to Admins.</li>
       <li>Done! Now SYSbot will listen to what Admins say separate from what normal users say.</li>
     </ol>
     <br>
+    <h3 style="color: crimson;">Latest Update Notice</h3>
     <p>Please note: "Private Commands" can only be used by the Developers and Maintainers<br>
     SYSbot will not, under any circumstance, record, remember, share (publicly or privately) any message or command it is sent.<br>
-    Due to a recent change in Discord Policy, SYSbot's IMP AI has been removed. This affects NSFW Content Filters (disables them)</p>
+    Due to a recent change in Discord Policy, SYSbot's IMP AI and WiSearch have been removed. This affects NSFW Content Filters and the !explain command (disables them).</p>
     <br>
     <button id="themeButton" onclick="myFunction()">Switch light/dark mode</button>
     <br>
@@ -62,5 +51,7 @@ So, how do you set up SYSbot?</p>
     element.classList.toggle("dark");
     }
 </script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/anchor-js/4.1.0/anchor.min.js" integrity="sha256-lZaRhKri35AyJSypXXs4o6OPFTbTmUoltBbDCbdzegg=" crossorigin="anonymous"></script>
+<script>anchors.add();</script>
 </body>
 </html>
